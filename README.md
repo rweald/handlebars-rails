@@ -23,9 +23,9 @@ Then run `bundle install`. You're done!
 This gem provides the ability to compile javascript templates using [handlebars templates](https://github.com/wycats/handlebars.js)
 and makes them available on the client on a global JST object.
 
-Any file with the extension '.js.hbs' will get compiled using [handlebars templates](https://github.com/wycats/handlebars.js)
+Any file with the extension '.jst.hbs' will get compiled using [handlebars templates](https://github.com/wycats/handlebars.js)
 
-example `app/assets/javascripts/hello.js.hbs`:
+example `app/assets/javascripts/hello.jst.hbs`:
 
     Hello {{name}}!
 
